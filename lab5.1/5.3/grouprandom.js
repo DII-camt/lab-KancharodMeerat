@@ -19,4 +19,4 @@ const students = [662110182, 662110183, 662110184, 662110185,
         return groups;
     }
     
-    console.log(GroupRandom(students, 2));
+    console.log(GroupRandom(students, 3));

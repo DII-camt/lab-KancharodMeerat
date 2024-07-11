@@ -15,11 +15,11 @@ console.log(y); // Uncaught ReferenceError: y is not defined
 
 // โปรแกรม A3
 var x = 10;
-let y = 100;
+let y1 = 100;
 if(x === 10){
-    console.log(y); // 100
+    console.log(y1); // 100
 }
-console.log(y); // 100
+console.log(y1); // 100
 
 // โปรแกรม B1
 let myArray = [1, 2, 3];
@@ -46,8 +46,8 @@ console.log(numbersTwo); // [4, 5, [1, 2, 3]]
 
 // โปรแกรม C2
 const numbersOnee = [1, 2, 3];
-const numbersTwoo = [4, 5, ...numbersOne];
-console.log(numbersTwo); // [4, 5, 1, 2, 3]
+const numbersTwoo = [4, 5, ...numbersOnee];
+console.log(numbersTwoo); // [4, 5, 1, 2, 3]
 
 // Function สำหรับคำถามที่ 4
 function fun(...input) {
